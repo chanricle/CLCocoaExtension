@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9497E8F1C246C8400B4B5E5 /* UIButton+CLCocoaExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9497E8E1C246C8400B4B5E5 /* UIButton+CLCocoaExtension.m */; };
+		B9497E921C2470BF00B4B5E5 /* NSString+CLCocoaExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9497E911C2470BF00B4B5E5 /* NSString+CLCocoaExtension.m */; };
 		B9540E2C1C23D7AB006A9146 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9540E2B1C23D7AB006A9146 /* main.m */; };
 		B9540E2F1C23D7AB006A9146 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9540E2E1C23D7AB006A9146 /* AppDelegate.m */; };
 		B9540E321C23D7AB006A9146 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9540E311C23D7AB006A9146 /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		B9540E3A1C23D7AB006A9146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9540E381C23D7AB006A9146 /* LaunchScreen.storyboard */; };
 		B9540E451C23D7AB006A9146 /* CLCocoaExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9540E441C23D7AB006A9146 /* CLCocoaExtensionTests.m */; };
 		B9540E501C23D7AB006A9146 /* CLCocoaExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9540E4F1C23D7AB006A9146 /* CLCocoaExtensionUITests.m */; };
+		B9540E681C23E103006A9146 /* UIColor+CLCocoaExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9540E671C23E103006A9146 /* UIColor+CLCocoaExtension.m */; };
+		B9540E6B1C23E279006A9146 /* UIView+CLCocoaExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9540E6A1C23E279006A9146 /* UIView+CLCocoaExtension.m */; };
+		B9540E6E1C2410D8006A9146 /* UIImage+CLCocoaExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9540E6D1C2410D8006A9146 /* UIImage+CLCocoaExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B9497E8D1C246C8400B4B5E5 /* UIButton+CLCocoaExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CLCocoaExtension.h"; sourceTree = "<group>"; };
+		B9497E8E1C246C8400B4B5E5 /* UIButton+CLCocoaExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CLCocoaExtension.m"; sourceTree = "<group>"; };
+		B9497E901C2470BF00B4B5E5 /* NSString+CLCocoaExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CLCocoaExtension.h"; sourceTree = "<group>"; };
+		B9497E911C2470BF00B4B5E5 /* NSString+CLCocoaExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CLCocoaExtension.m"; sourceTree = "<group>"; };
 		B9540E271C23D7AB006A9146 /* CLCocoaExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLCocoaExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9540E2B1C23D7AB006A9146 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9540E2D1C23D7AB006A9146 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,13 @@
 		B9540E4B1C23D7AB006A9146 /* CLCocoaExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLCocoaExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9540E4F1C23D7AB006A9146 /* CLCocoaExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCocoaExtensionUITests.m; sourceTree = "<group>"; };
 		B9540E511C23D7AB006A9146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9540E5F1C23D879006A9146 /* CLCocoaExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCocoaExtension.h; sourceTree = "<group>"; };
+		B9540E661C23E103006A9146 /* UIColor+CLCocoaExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CLCocoaExtension.h"; sourceTree = "<group>"; };
+		B9540E671C23E103006A9146 /* UIColor+CLCocoaExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CLCocoaExtension.m"; sourceTree = "<group>"; };
+		B9540E691C23E279006A9146 /* UIView+CLCocoaExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CLCocoaExtension.h"; sourceTree = "<group>"; };
+		B9540E6A1C23E279006A9146 /* UIView+CLCocoaExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CLCocoaExtension.m"; sourceTree = "<group>"; };
+		B9540E6C1C2410D8006A9146 /* UIImage+CLCocoaExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CLCocoaExtension.h"; sourceTree = "<group>"; };
+		B9540E6D1C2410D8006A9146 /* UIImage+CLCocoaExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CLCocoaExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,7 @@
 		B9540E291C23D7AB006A9146 /* CLCocoaExtension */ = {
 			isa = PBXGroup;
 			children = (
+				B9540E5D1C23D84F006A9146 /* CLCocoaExtension */,
 				B9540E2D1C23D7AB006A9146 /* AppDelegate.h */,
 				B9540E2E1C23D7AB006A9146 /* AppDelegate.m */,
 				B9540E301C23D7AB006A9146 /* ViewController.h */,
@@ -138,6 +155,32 @@
 				B9540E511C23D7AB006A9146 /* Info.plist */,
 			);
 			path = CLCocoaExtensionUITests;
+			sourceTree = "<group>";
+		};
+		B9540E5D1C23D84F006A9146 /* CLCocoaExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B9540E5F1C23D879006A9146 /* CLCocoaExtension.h */,
+				B9540E5E1C23D85E006A9146 /* Category */,
+			);
+			path = CLCocoaExtension;
+			sourceTree = "<group>";
+		};
+		B9540E5E1C23D85E006A9146 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B9540E661C23E103006A9146 /* UIColor+CLCocoaExtension.h */,
+				B9540E671C23E103006A9146 /* UIColor+CLCocoaExtension.m */,
+				B9540E691C23E279006A9146 /* UIView+CLCocoaExtension.h */,
+				B9540E6A1C23E279006A9146 /* UIView+CLCocoaExtension.m */,
+				B9540E6C1C2410D8006A9146 /* UIImage+CLCocoaExtension.h */,
+				B9540E6D1C2410D8006A9146 /* UIImage+CLCocoaExtension.m */,
+				B9497E8D1C246C8400B4B5E5 /* UIButton+CLCocoaExtension.h */,
+				B9497E8E1C246C8400B4B5E5 /* UIButton+CLCocoaExtension.m */,
+				B9497E901C2470BF00B4B5E5 /* NSString+CLCocoaExtension.h */,
+				B9497E911C2470BF00B4B5E5 /* NSString+CLCocoaExtension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9540E6B1C23E279006A9146 /* UIView+CLCocoaExtension.m in Sources */,
 				B9540E321C23D7AB006A9146 /* ViewController.m in Sources */,
+				B9497E921C2470BF00B4B5E5 /* NSString+CLCocoaExtension.m in Sources */,
 				B9540E2F1C23D7AB006A9146 /* AppDelegate.m in Sources */,
+				B9497E8F1C246C8400B4B5E5 /* UIButton+CLCocoaExtension.m in Sources */,
+				B9540E681C23E103006A9146 /* UIColor+CLCocoaExtension.m in Sources */,
+				B9540E6E1C2410D8006A9146 /* UIImage+CLCocoaExtension.m in Sources */,
 				B9540E2C1C23D7AB006A9146 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +544,7 @@
 				B9540E561C23D7AB006A9146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9540E571C23D7AB006A9146 /* Build configuration list for PBXNativeTarget "CLCocoaExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +553,7 @@
 				B9540E591C23D7AB006A9146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9540E5A1C23D7AB006A9146 /* Build configuration list for PBXNativeTarget "CLCocoaExtensionUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +562,7 @@
 				B9540E5C1C23D7AB006A9146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
