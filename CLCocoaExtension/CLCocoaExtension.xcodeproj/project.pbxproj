@@ -20,6 +20,8 @@
 		B9540E681C23E103006A9146 /* UIColor+CLCocoaExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9540E671C23E103006A9146 /* UIColor+CLCocoaExtension.m */; };
 		B9540E6B1C23E279006A9146 /* UIView+CLCocoaExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9540E6A1C23E279006A9146 /* UIView+CLCocoaExtension.m */; };
 		B9540E6E1C2410D8006A9146 /* UIImage+CLCocoaExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9540E6D1C2410D8006A9146 /* UIImage+CLCocoaExtension.m */; };
+		B99CF5E01C3B8C6000F117B9 /* CLCocoaExtensionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B99CF5DF1C3B8C6000F117B9 /* CLCocoaExtensionUtil.m */; };
+		B99CF5E41C3B90B700F117B9 /* UITextView+CLCocoaExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B99CF5E31C3B90B700F117B9 /* UITextView+CLCocoaExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,11 @@
 		B9540E6A1C23E279006A9146 /* UIView+CLCocoaExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CLCocoaExtension.m"; sourceTree = "<group>"; };
 		B9540E6C1C2410D8006A9146 /* UIImage+CLCocoaExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CLCocoaExtension.h"; sourceTree = "<group>"; };
 		B9540E6D1C2410D8006A9146 /* UIImage+CLCocoaExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CLCocoaExtension.m"; sourceTree = "<group>"; };
+		B99CF5DE1C3B8C6000F117B9 /* CLCocoaExtensionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCocoaExtensionUtil.h; sourceTree = "<group>"; };
+		B99CF5DF1C3B8C6000F117B9 /* CLCocoaExtensionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCocoaExtensionUtil.m; sourceTree = "<group>"; };
+		B99CF5E11C3B8C8200F117B9 /* CLCocoaExtensionConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCocoaExtensionConst.h; sourceTree = "<group>"; };
+		B99CF5E21C3B90B700F117B9 /* UITextView+CLCocoaExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+CLCocoaExtension.h"; sourceTree = "<group>"; };
+		B99CF5E31C3B90B700F117B9 /* UITextView+CLCocoaExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+CLCocoaExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +168,9 @@
 			isa = PBXGroup;
 			children = (
 				B9540E5F1C23D879006A9146 /* CLCocoaExtension.h */,
+				B99CF5E11C3B8C8200F117B9 /* CLCocoaExtensionConst.h */,
+				B99CF5DE1C3B8C6000F117B9 /* CLCocoaExtensionUtil.h */,
+				B99CF5DF1C3B8C6000F117B9 /* CLCocoaExtensionUtil.m */,
 				B9540E5E1C23D85E006A9146 /* Category */,
 			);
 			path = CLCocoaExtension;
@@ -179,6 +189,8 @@
 				B9497E8E1C246C8400B4B5E5 /* UIButton+CLCocoaExtension.m */,
 				B9497E901C2470BF00B4B5E5 /* NSString+CLCocoaExtension.h */,
 				B9497E911C2470BF00B4B5E5 /* NSString+CLCocoaExtension.m */,
+				B99CF5E21C3B90B700F117B9 /* UITextView+CLCocoaExtension.h */,
+				B99CF5E31C3B90B700F117B9 /* UITextView+CLCocoaExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -245,6 +257,7 @@
 		B9540E1F1C23D7AB006A9146 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CL;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = chanricle;
 				TargetAttributes = {
@@ -317,9 +330,11 @@
 				B9540E321C23D7AB006A9146 /* ViewController.m in Sources */,
 				B9497E921C2470BF00B4B5E5 /* NSString+CLCocoaExtension.m in Sources */,
 				B9540E2F1C23D7AB006A9146 /* AppDelegate.m in Sources */,
+				B99CF5E41C3B90B700F117B9 /* UITextView+CLCocoaExtension.m in Sources */,
 				B9497E8F1C246C8400B4B5E5 /* UIButton+CLCocoaExtension.m in Sources */,
 				B9540E681C23E103006A9146 /* UIColor+CLCocoaExtension.m in Sources */,
 				B9540E6E1C2410D8006A9146 /* UIImage+CLCocoaExtension.m in Sources */,
+				B99CF5E01C3B8C6000F117B9 /* CLCocoaExtensionUtil.m in Sources */,
 				B9540E2C1C23D7AB006A9146 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

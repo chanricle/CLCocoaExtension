@@ -9,10 +9,14 @@
 #ifndef CLCocoaExtension_h
 #define CLCocoaExtension_h
 
+// Categories
 #import "UIColor+CLCocoaExtension.h"
 #import "UIView+CLCocoaExtension.h"
 #import "UIImage+CLCocoaExtension.h"
 #import "UIButton+CLCocoaExtension.h"
 #import "NSString+CLCocoaExtension.h"
+
+#import "CLCocoaExtensionUtil.h"
+#import "CLCocoaExtensionConst.h"
 
 #endif /* CLCocoaExtension_h */
