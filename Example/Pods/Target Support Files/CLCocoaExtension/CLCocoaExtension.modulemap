@@ -1,0 +1,6 @@
+framework module CLCocoaExtension {
+  umbrella header "CLCocoaExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
