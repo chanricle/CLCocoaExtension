@@ -25,8 +25,7 @@ s.license = 'MIT'
 s.author = { "chanricle" => "chanricle@gmail.com" }
 s.source = { :git => "https://github.com/chanricle/CLCocoaExtension.git", :tag => s.version.to_s }
 
-# twitter帐号
-s.social_media_url = 'https://twitter.com/ChanricleKing'
+
 
 # 支持的平台
 s.platform = :ios, '7.0'
@@ -41,6 +40,7 @@ s.resource_bundles = {
 }
 
 # 其他暂时没用到的配置
+# s.social_media_url = 'https://twitter.com/ChanricleKing'
 # s.screenshots = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'UIKit', 'MapKit'
